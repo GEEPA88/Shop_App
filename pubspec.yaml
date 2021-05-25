@@ -61,14 +61,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Lato
-      fonts:
-        - asset: assets/fonts/fonts3/Lato-Regular.ttf
-        - asset: assets/fonts/fonts3/Lato-Bold.ttf
-          weight: 700
-    - family: Anton
-      fonts:
-        - asset: assets/fonts/fonts3/Anton-Regular.ttf
+  - family: Lato
+    fonts:
+      - asset: lib/fonts/Lato-Regular.ttf
+      - asset: lib/fonts/Lato-Bold.ttf
+        weight: 700
+  - family: Anton
+    fonts:
+      - asset: lib/fonts/Anton-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
