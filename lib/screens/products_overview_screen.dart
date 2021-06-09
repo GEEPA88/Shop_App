@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../widget/app_drawer.dart';
 
+import '../widget/app_drawer.dart';
+import '../widget/products_grid.dart';
 import '../widget/badge.dart';
 import '../providers/cart.dart';
 import './cart_screen.dart';
 import '../providers/products.dart';
-import '../widget/products_grid.dart';
 
 enum FilterOptions {
   Favorites,
@@ -24,11 +24,10 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
   var _isLoading = false;
   @override
   void initState() {
-    //Provider.of<Products>(context, listen: false).fetchAndSetProducts();
-//Future.delayed(Duration.zero).then(_){
-    // Provider.of<Products>(context).fetchAndSetProducts();
-
-//});
+    // Provider.of<Products>(context).fetchAndSetProducts(); // WON'T WORK!
+    // Future.delayed(Duration.zero).then((_) {
+    //   Provider.of<Products>(context).fetchAndSetProducts();
+    // });
     super.initState();
   }
 
